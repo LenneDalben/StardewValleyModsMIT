@@ -4,13 +4,20 @@
   "Version": "1.0",
   "Description": "Adds an app that triggers the default key to call the Tractor.",
   "UniqueID": "LenneDalben.MobileTractor",
-  "MinimumApiVersion": "3.5.0",
+  "MinimumApiVersion": "3.7.2",
   "ContentPackFor": {
     "UniqueID": "aedenthorn.MobilePhone",
     "MinimumVersion": "0.1.0"
   },
   "Dependencies": [
-   { "UniqueID": "Pathoschild.TractorMod", "IsRequired": true },
-     { "UniqueID": "aedenthorn.MobilePhone", "IsRequired": true },
+    {
+      "UniqueID": "Pathoschild.TractorMod",
+      "IsRequired": true,
+      "MinimumVersion": "4.11.2"
+    },
+    {
+      "UniqueID": "aedenthorn.MobilePhone",
+      "IsRequired": true
+    },
   ]
 }
