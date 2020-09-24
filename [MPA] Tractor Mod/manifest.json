@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Mobile Phone App for Tractor Mod",
+  "Author": "LenneDalben",
+  "Version": "1.0",
+  "Description": "Adds an app that triggers the default key to call the Tractor.",
+  "UniqueID": "LenneDalben.MobileTractor",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   { "UniqueID": "Pathoschild.TractorMod", "IsRequired": true },
+     { "UniqueID": "aedenthorn.MobilePhone", "IsRequired": true },
+  ]
+}
