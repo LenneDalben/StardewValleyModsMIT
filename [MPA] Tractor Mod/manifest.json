@@ -1,7 +1,7 @@
 ﻿{
   "Name": "[MPA] Mobile Phone App for Tractor Mod",
   "Author": "LenneDalben",
-  "Version": "1.0",
+  "Version": "1.0.1",
   "Description": "Adds an app that triggers the default key to call the Tractor.",
   "UniqueID": "LenneDalben.MobileTractor",
   "UpdateKeys": [ "GitHub:LenneDalben/Mobile Phone App for Tractor Mod" ],
